@@ -1,0 +1,47 @@
+
+body{
+    background-color: black;
+    color: aqua;
+    flex-wrap: wrap;
+    margin: 20px solid grey;
+}
+h3{
+    color: white;
+}
+.titleimg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.img{
+    order: -1;
+}
+.title{
+    text-align: center;
+    flex-grow: 1;
+}
+.contents{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: left;
+}
+@media screen and (max-width:600px){
+    .left,.right{
+        width:48%;
+    }
+}
+@media screen and (max-width:768px){
+    .left,.right{
+        width:48%;
+    }
+}
+
+
+
+
